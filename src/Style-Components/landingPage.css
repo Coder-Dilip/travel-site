@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+
+.landing__Page{
+    background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.432), rgba(117, 19, 93, 0)),
+    url('../images/travelimage.jpg');
+    
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.explore{
+    font-family: 'Pacifico', cursive;
+         color: white;
+         position: relative;                                    
+         top: -10px;
+}
+
+.title{
+    font-weight:900;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.SubTitle{
+    color: white;
+    font-size: 1.03rem;
+}
+
+
+.introduction{
+    width: 40%;
+    text-align: center;
+    /* border: 1px solid black; */
+    /* margin-left: 20%; */
+}
+
+.exploreButton{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    background-color: white;
+    color: rgb(0, 156, 156);
+    transition: 0.2s;
+}
+
+.exploreButton:hover{
+ transition: 0.2s;
+ 
+}
+
+.exploreButton:active{
+    background-color: rgb(0, 156, 156);
+    color: white;
+    transition: .2s;
+}
+
+@media only screen and (max-width: 575px) {
+    .explore{
+        font-family: 'Pacifico', cursive;
+             color: rgb(255, 255, 255);                                      
+    }
+
+}
+
+

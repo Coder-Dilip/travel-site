@@ -1,0 +1,85 @@
+.WhyChooseUs{
+    margin-top: 100px;
+}
+
+
+.subTitle{
+    color: rgb(90, 90, 90);
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.icon__Container{
+display: flex;
+/* justify-content: center; */
+width: 100%;
+/* border: 1px solid black; */
+width: 80%;
+margin: auto;
+overflow: auto;
+margin-top: -10px;
+}
+
+.icon__Container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .icon__Container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.icon__Container>.icon__Intro{
+    margin: 15px;
+    margin-top: 25px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon__Container>.icon__Intro>.why__SubTitle{
+    width: 200px;
+    margin-top: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icon__Container>.icon__Intro>.why__Description{
+    text-align: center;
+    max-width: 300px;
+    
+}
+
+@media only screen and (max-width: 580px) {
+    .icon__Container>.icon__Intro{
+        margin: 15px;
+        margin-top: 15px;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-color: rgb(236, 236, 236);
+        border-radius: 8px;
+        transition: 0.3s;
+  }
+
+  .icon__Container>.icon__Intro>.why__Description{
+    text-align: center;
+    max-width: 300px;
+ padding: 10px;   
+ position: relative;
+ top: -10px;
+ 
+}
+
+.icon__Container>.icon__Intro:hover{
+    transform: scale(1.07);
+    transition: 0.3s;
+}
+}
+

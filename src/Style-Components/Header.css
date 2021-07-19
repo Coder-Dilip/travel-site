@@ -1,0 +1,145 @@
+
+ 
+   
+.header__Back{
+    background-color: none;
+    color: white !important;
+    position: sticky !important;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.07);
+ width: 100%;
+ z-index: 100;
+
+  
+}
+
+.mr-auto{
+    display: block;
+    /* border: 1px solid white; */
+    margin: auto;
+    position: relative;
+    top: -4px;
+}
+
+.profile__Button{
+border: none;
+border-radius: 3px;
+padding: 5px 10px;
+font-size: 15px;
+transition: .2s;
+}
+
+.profile__Button:hover{
+color: rgb(0, 156, 156);
+background-color: white;
+transition: .2s;
+}
+
+.nav__Links{
+    color: black !important;
+}
+
+
+.loulyLogo{
+    color:#005b96
+}
+
+
+
+
+
+@media only screen and (max-width: 575px) {
+    
+    .navbar-collapse{
+        color: white;
+        
+        /* border: 1px solid black !important; */
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(2, 211, 211, 0.178);
+        
+        border-radius: 5px;
+        position: relative;
+        top: 10px;
+        padding: 10px;
+
+        backdrop-filter: blur( 8.0px );
+-webkit-backdrop-filter: blur( 8.0px );
+border-radius: 10px;
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+
+     
+    }
+
+    .profile__Button{
+        background-color:rgba(0, 0, 0, 0.842); ;
+        color: white;
+    }
+    
+    .nav__Links{
+        color: black !important;
+    }
+    .loulyLogo{
+        position:relative;top:-8px;
+        color:rgb(0, 156, 156);
+    }
+    .togglerIcon{
+        position: relative;
+        top: -8px;
+        
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+    .nav__Links{
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    }
+    .nav__Links:hover{
+        color:rgb(0, 156, 156)!important;
+    }
+ 
+
+  }
+
+@media only screen and (min-width: 1000px) {
+    .nav__Links{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    }
+    .nav__Links:hover{
+        color:rgb(0, 156, 156)!important;
+    }
+  }
+
+@media only screen and (min-width: 1200px) {
+    .nav__Links{
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+    .nav__Links:hover{
+        color:rgb(0, 156, 156)!important;
+    }
+    .profile__Button:hover{
+        color:white;
+        background-color: rgb(0, 156, 156);
+        transition: .2s;
+        }
+  }
+
+
+
+      
+
+
+
+
